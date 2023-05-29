@@ -1,0 +1,309 @@
+# Copyright (c) 2016 by Gavin Kloewer
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "M-08 Chaingun"
+	category "Guns"
+	cost 18000
+	thumbnail "outfit/m08"
+	"mass" 4
+	"outfit space" -4
+	"weapon capacity" -4
+	"gun ports" -1
+	weapon
+		sprite "projectile/chaingun"
+		sound "anti-missile"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 3.5
+		"velocity" 12
+		"lifetime" 25
+		"reload" 2
+		"firing energy" 2
+		"firing heat" 2
+		"shield damage" 2
+		"hull damage" 2
+	description "The standard-issue Desradi Chaingun, created by the Gerdov Design Bureau. It is commonly found on many spaceships, and its small size and very high rate of fire make up for its inaccuracy and low damage."
+
+outfit "M-08 Chaingun Turret"
+	category "Turrets"
+	cost 50000
+	thumbnail "outfit/m08 turret"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	weapon
+		sprite "projectile/chaingun"
+		sound "anti-missile"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 3.5
+		"velocity" 12
+		"lifetime" 25
+		"reload" 2
+		"firing energy" 2
+		"firing heat" 2
+		"shield damage" 2
+		"hull damage" 2
+	description "The standard-issue Desradi Chaingun, now on a turret mount. This auto-turret its very effective against small craft due to its high rate of fire and fast tracking."
+
+outfit "M-08 Twin Chaingun Turret"
+	category "Turrets"
+	cost 120000
+	thumbnail "outfit/m08 twin turret"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		sprite "projectile/chaingun"
+		sound "anti-missile"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 3.5
+		"velocity" 12
+		"lifetime" 25
+		"reload" 1
+		"firing energy" 2
+		"firing heat" 2
+		"shield damage" 2
+		"hull damage" 2
+	description "This turret mounted version of the M-08 has two weapon systems, allowing a even higher rate of fire."
+
+outfit "M-12 Chaingun"
+	category "Guns"
+	cost 33000
+	thumbnail "outfit/m12"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"gun ports" -1
+	weapon
+		sprite "projectile/chaingun"
+		sound "anti-missile"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 3
+		"velocity" 12
+		"lifetime" 30
+		"reload" 10
+		"firing energy" 6
+		"firing heat" 6
+		"shield damage" 12
+		"hull damage" 12
+	description "Another chaingun from Gerdov Design Bureau. It has a longer range and does more damage than the M-08, but has a slower rate of fire."
+
+outfit "M-12 Chaingun Turret"
+	category "Turrets"
+	cost 72000
+	thumbnail "outfit/m12 turret"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"turret mounts" -1
+	weapon
+		sprite "projectile/chaingun"
+		sound "anti-missile"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 3
+		"velocity" 12
+		"lifetime" 30
+		"reload" 10
+		"firing energy" 6
+		"firing heat" 6
+		"shield damage" 12
+		"hull damage" 12
+	description "This version of the M-12 is mounted on a auto-turret gimbal, allowing it to fire in any direction. Its longer range than the M-08 makes it even more effective against strike craft, able to engage them from longer distances."
+
+
+outfit "M-15 Energy Blaster"
+	category "Guns"
+	cost 38000
+	thumbnail "outfit/m15"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/red blaster"
+		sound "particle"
+		"hit effect" "energy blaster impact"
+		"inaccuracy" 2
+		"velocity" 10
+		"lifetime" 80
+		"reload" 15
+		"firing energy" 14
+		"firing heat" 12
+		"shield damage" 24
+		"hull damage" 22
+	description "This Gerdov design is a high-power Energy Blaster. It has a  longer range and is more accurate than a chaingun, although with a lower rate of fire."
+
+outfit "M-16 Energy Blaster"
+	category "Guns"
+	cost 44000
+	thumbnail "outfit/m16"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/orange blaster"
+		sound "particle"
+		"hit effect" "energy blaster impact"
+		"inaccuracy" 2
+		"velocity" 12
+		"lifetime" 100
+		"reload" 12
+		"firing energy" 17
+		"firing heat" 15
+		"shield damage" 24
+		"hull damage" 22
+	description "This Energy Blaster from Gerdov has a longer range and slightly higher rate of fire than the more common M-15. "
+
+outfit "M-36 Energy Cannon"
+	category "Guns"
+	cost 120000
+	thumbnail "outfit/m36"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster cannon"
+		sound "proton"
+		"hit effect" "plasma explosion"
+		"inaccuracy" 1
+		"velocity" 7
+		"lifetime" 140
+		"reload" 60
+		"firing energy" 100
+		"firing heat" 50
+		"shield damage" 140
+		"hull damage" 120
+	description "A large energy blaster for larger ships. It has a slow rate of fire, but it does massive damage."
+
+outfit "M-76 Energy Cannon"
+	category "Guns"
+	cost 120000
+	thumbnail "outfit/m76"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster cannon short"
+		sound "proton"
+		"hit effect" "plasma explosion"
+		"inaccuracy" 1
+		"velocity" 7
+		"lifetime" 90
+		"reload" 60
+		"firing energy" 120
+		"firing heat" 60
+		"shield damage" 180
+		"hull damage" 160
+	description "Large, short range energy cannon. It does a lot of damage, but you have to be close to use it effectively."
+
+outfit "M-865 Heavy Energy Cannon"
+	category "Guns"
+	cost 280000
+	thumbnail "outfit/m865"
+	"mass" 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"gun ports" -1
+	weapon
+		sprite "projectile/heavy cannon bolt"
+		sound "ion"
+		"hit effect" "heavy cannon impact"
+		"inaccuracy" 1
+		"velocity" 6
+		"lifetime" 120
+		"reload" 120
+		"firing energy" 200
+		"firing heat" 120
+		"shield damage" 460
+		"hull damage" 440
+	description "This Gerdov energy cannon is one of the largest shipboard weapons found in the Desradi Empire. Its very slow rate of fire is made up for by its colossal damage."
+
+outfit "M-2545 Flak Cannon"
+	category "Guns"
+	cost 68000
+	thumbnail "outfit/autocannon"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/shell"
+		sound "tracker"
+		"hit effect" "flak"
+		"die effect" "flak"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 40
+		"reload" 40
+		"firing energy" 1
+		"firing heat" 2
+		"trigger radius" 10
+		"blast radius" 25
+		"shield damage" 160
+		"hull damage" 180
+		"hit force" 1
+	description "The M-2545 Autocannon uses explosive bolts that have proximity fuses, allowing it to effect a large amount of spacecraft."
+	
+outfit "M-2545 Dual Flak Cannon Turret"
+	category "Turrets"
+	cost 68000
+	thumbnail "outfit/autocannonx2"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		sprite "projectile/shell"
+		sound "tracker"
+		"hit effect" "flak"
+		"die effect" "flak"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 40
+		"reload" 20
+		"firing energy" 1
+		"firing heat" 2
+		"trigger radius" 10
+		"blast radius" 25
+		"shield damage" 160
+		"hull damage" 180
+		"hit force" 1
+	description "The M-2545 Autocannon uses explosive bolts that have proximity fuses, allowing it to effect a large amount of spacecraft."
+
+outfit "M-2545 Quad Flak Cannon Turret"
+	category "Turrets"
+	cost 420000
+	thumbnail "outfit/autocannonx4"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		sprite "projectile/shell"
+		sound "tracker"
+		"hit effect" "flak"
+		"die effect" "flak"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 40
+		"reload" 10
+		"firing energy" 1
+		"firing heat" 2
+		"trigger radius" 10
+		"blast radius" 25
+		"shield damage" 160
+		"hull damage" 180
+		"hit force" 1
+	description "The M-2545 Autocannon uses explosive bolts that have proximity fuses, allowing it to effect a large amount of spacecraft.This version is mounted on a quad-turret mount, making it very effective at eliminating groups of strike craft."
+

@@ -1,0 +1,60 @@
+outfit "X5700 Quantum Thruster"
+	category "Engines"
+	"cost" 1
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" 0
+	"engine capacity" 0
+	"thrust" 100
+	"thrusting energy" 0
+	"thrusting heat" 0
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 0.8
+	"flare sound" "ion_drive"
+
+outfit "X5200 Quantum Steering"
+	category "Engines"
+	"cost" 1
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" 0
+	"engine capacity" 0
+	"turn" 2500
+	"turning energy" 0
+	"turning heat" 0
+
+outfit "A865 Atomic Quantum Steering"
+	category "Engines"
+	"cost" 1
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" 0
+	"engine capacity" 0
+	"turn" 4000
+	"turning energy" 0
+	"turning heat" 0
+
+outfit "A860 Atomic Quantum Thruster"
+	category "Engines"
+	"cost" 1
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" 0
+	"engine capacity" 0
+	"thrust" 250
+	"thrusting energy" 0
+	"thrusting heat" 0
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 10
+	"flare sound" "ion_drive"
+	
+outfit "Reverse Quantum Thruster"
+	category "Engines"
+	"cost" 1
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" 0
+	"weapon capacity" 0
+	"reverse thrust" 50
+	"reverse thrusting energy" 0
+	"reverse thrusting heat" 0

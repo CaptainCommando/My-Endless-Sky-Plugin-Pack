@@ -1,0 +1,7 @@
+outfitter "Quantum Engines"
+	"X5700 Quantum Thruster"
+	"X5200 Quantum Steering"
+	"A865 Atomic Quantum Steering"
+	"A860 Atomic Quantum Thruster"
+	"Reverse Quantum Thruster"
+	

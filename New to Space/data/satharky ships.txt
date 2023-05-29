@@ -1,0 +1,114 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Safsann"
+	sprite "ship/Safsann"
+	"uncapturable"
+	attributes
+		category "Medium Warship"
+		"cost" 3336669
+		"shields" 1200
+		"hull" 9900
+		"required crew" 10
+		"bunks" 30
+		"mass" 120
+		"drag" 4.8
+		"heat dissipation" .6
+		"fuel capacity" 900
+		"cargo space" 50
+		"outfit space" 314
+		"weapon capacity" 200
+		"engine capacity" 100
+		"cooling" 4.8
+		weapon
+			"blast radius" 222
+			"shield damage" 2220
+			"hull damage" 1110
+			"hit force" 1665
+	outfits
+		"Scanons" 2
+		"Asni-Simmas Sorptas" 1
+		"Simmas Forcis" 2
+		"Simmas" 200
+		"SucKen Simmas" 2
+
+		"Sakn" 1
+		"Fusle" 2
+		"FasStacs" 30
+		
+		"SthuStess" 4
+		
+	engine -13 75
+	engine 13 75
+	gun -10 -40 "Scanons"
+	gun 10 -40 "Scanons"
+	gun -77 61 "SucKen Simmas"
+	gun 77 61 "SucKen Simmas"
+	gun -33 30 "Simmas Forcis"
+	gun 33 30 "Simmas Forcis"
+	turret 0 45 "Asni-Simmas Sorptas"
+	fighter -18 -5 left "Safers"
+	fighter 18 5 right "Safers"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "big explosion" 10
+	"final explode" "final explosion medium"
+	description "The Safsann is a light carrier with a lot of weapon capacity. This is the biggest space ship the SathArky can get into space with their technology. But you know if they every understand how to give their ships more shields and thrust they well become a bigger threat. They would rather die then be captured. The ship has a bigger "boom" then normal ships it's size."
+
+ship "Safers"
+	sprite "ship/Safers"
+	"uncapturable"
+	attributes
+		category "Fighter"
+		"cost" 55555
+		"shields" 200
+		"hull" 1650
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .8
+		"heat dissipation" .8
+		"outfit space" 100
+		"weapon capacity" 50
+		"engine capacity" 25
+		"fuel capacity" 250
+		"cooling" .8
+		weapon
+			"blast radius" 37
+			"shield damage" 370
+			"hull damage" 185
+			"hit force" 277.5
+	outfits
+		"Scanons" 1
+		"Simmas Forcis" 1
+		"Simmas" 100
+
+		"FasStacs" 1
+		"Fusle" 1
+		"Sakn" 1
+
+		"SthuStess" 1
+		
+	engine -9 17
+	engine 9 17
+	gun -6 -14 "Simmas Forcis"
+	gun 6 -14 "Scanons"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The Safers is the only fighter the SathArky have for space warfare. The ship has a bigger "boom" then normal ships it's size."

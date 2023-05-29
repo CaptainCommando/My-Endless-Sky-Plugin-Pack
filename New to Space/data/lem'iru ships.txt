@@ -1,0 +1,350 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Ships are grown thus are living things and take many years to grow into larger ships, and seeing they are a peacefull race, ships have more cargo space, then most. 
+#They also do less damage when they die.
+#Also form child ship to elder the ship is always plant like, and although the size of the ship may change, the over all look wont change much.
+#until better sprites can be made all ships have temp sprite if you want to take this on do so and add your name to the credits in the first folder.
+
+ship "C Frosta"
+	sprite "ship/cseed"
+	attributes
+		category "Drone"
+		"cost" 359375
+		"shields" 500
+		"hull" 100
+		"mass" 20
+		"drag" .55
+		"heat dissipation" .9
+		"cargo space" 16
+		"outfit space" 16
+		"engine capacity" 16
+		"automaton" 1
+		"seed capacity" 2
+		"thrust" 2
+		"thrusting energy" 1.8
+		"turn" 25
+		"turning energy" 0.9
+		"energy capacity" 25
+		"solar collection" .2
+		"energy generation" .3
+		"hull repair rate" .05
+		"hull heat" .1
+		"cooling" .1
+		weapon
+			"blast radius" 3
+			"shield damage" 30
+			"hull damage" 15
+			"hit force" 45
+	outfits
+		"I.E.S"
+		
+	engine -9 29
+	engine 9 29
+	explode "tiny explosion" 15
+	description "The genetically engineered seed takes 5 earth years to become a B Frosta. It well take another 10 years to becaome P Frosta."
+	description "Child or C Frosta is the first stage of the Frosta's growth. All Frostas have grown in thrusters and cooling veins. Seeing the Frota is a plant ship it collects a lot of solar energy."
+	description "All Frostas have a seed capacity that gets used up as you install Lem'Iru outfits. Children have 2 seed spots."
+
+ship "P Frosta"
+	sprite "ship/pseed"
+	attributes
+		category "Fighter"
+		"cost" 718750
+		"shields" 1500
+		"hull" 300
+		"required crew" 1
+		"bunks" 1
+		"mass" 40
+		"drag" .75
+		"heat dissipation" .85
+		"cargo space" 80
+		"outfit space" 60
+		"weapon capacity" 20
+		"engine capacity" 20
+		"seed capacity" 15
+		"thrust" 4
+		"thrusting energy" 1.8
+		"turn" 50
+		"turning energy" 0.9
+		"energy capacity" 50
+		"solar collection" .5
+		"energy generation" .2
+		"hull repair rate" .075
+		"hull heat" .2
+		"cooling" .2
+		weapon
+			"blast radius" 9
+			"shield damage" 90
+			"hull damage" 45
+			"hit force" 135
+	outfits
+		"Gun Seed"
+		
+		"S.E.S.E.S"
+		
+		"I.E.S"
+
+	engine -6 23
+	engine 6 23
+	gun 0 -24 "Gun Seed"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "It takes 25 earth years for a Frosta to grow this big, and well take another 15 years to become the T Frosta."
+	description "All Frostas can almost pilot themselves but once they get big enough they develop an interface that lets a pilot see and feel the ship as if it were their own body. This alows for better piloting."
+	description "All Frostas have a seed capacity that gets used up as you install Lem'Iru outfits. Pre-Teens have 15 seed spots."
+
+ship "T Frosta"
+	sprite "ship/tseed"
+	attributes
+		category "Light Freighter"
+		"cost" 1437500
+		"shields" 3500
+		"hull" 900
+		"required crew" 1
+		"bunks" 8
+		"mass" 200
+		"drag" 5.6
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"ramscoop" 1
+		"cargo space" 300
+		"outfit space" 200
+		"weapon capacity" 20
+		"engine capacity" 44
+		"seed capacity" 35
+		"thrust" 6
+		"thrusting energy" 1.8
+		"turn" 75
+		"turning energy" 0.9
+		"jump speed" .2
+		"hyperdrive" 1
+		"energy capacity" 100
+		"solar collection" 1
+		"energy generation" .1
+		"hull repair rate" .1
+		"hull heat" .3
+		"cooling" .4
+		weapon
+			"blast radius" 22
+			"shield damage" 220
+			"hull damage" 110
+			"hit force" 330
+	outfits
+		"Gun Seed"
+		
+		"S.E.S.E.S"
+		"D.I.S"
+		
+		"I.T.E.S"
+		"E.E.E.S"
+		
+	engine -20 70
+	engine 12 70
+	gun 0 -72 "Gun Seed"
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description "It takes 40 earth years for a Frosta to grow this big, and well take another 20 years to become the E.A Frosta."
+	description "Teen or T Frosta is the first stage of the Frosta's growth that gains the hyperspace ablility, as it gets older it gets a little better at going into hyperspace."
+	description "All Frostas have a seed capacity that gets used up as you install Lem'Iru outfits. Teenagers have 35 seed spots."
+
+ship "E.A Frosta"
+	sprite "ship/easeed"
+	attributes
+		category "Medium Warship"
+		"cost" 2875000
+		"shields" 6500
+		"hull" 1800
+		"required crew" 1
+		"bunks" 22
+		"mass" 270
+		"drag" 4.0
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"ramscoop" 1.5
+		"cargo space" 250
+		"outfit space" 250
+		"weapon capacity" 40
+		"engine capacity" 68
+		"seed capacity" 55
+		"thrust" 8
+		"thrusting energy" 1.8
+		"turn" 100
+		"turning energy" 0.9
+		"jump speed" .25
+		"hyperdrive" 1
+		"energy capacity" 175
+		"solar collection" 1.5
+		"energy generation" .05
+		"hull repair rate" .2
+		"hull heat" .4
+		"cooling" .7
+		weapon
+			"blast radius" 41.5
+			"shield damage" 415
+			"hull damage" 207.5
+			"hit force" 622.5
+	outfits
+		"Gun Seed" 2
+		
+		"S.E.S.E.S"
+		"D.I.S" 2
+		
+		"I.T.E.S" 2
+		"E.E.E.S"
+	
+	engine -19 93
+	engine 19 93
+	gun 0 -97 "Gun Seed"
+	gun 22 -63 "Gun Seed"
+	drone 0 0 under
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "big explosion" 8
+	"final explode" "final explosion medium"
+	description "It takes 60 earth years for a Frosta to grow this big, and well take another 20 years to become the A Frosta. The E.A Frosta was originally a mining ship, but this changed with the war that lasted nearly 20 earth years, that happened almost 210 years ago."
+	description "All Frostas have a seed capacity that gets used up as you install Lem'Iru outfits. Early Adults have 55 seed spots."
+
+ship "A Frosta"
+	sprite "ship/aseed"
+	attributes
+		category "Heavy Warship"
+		"cost" 5750000
+		"shields" 13000
+		"hull" 3600
+		"required crew" 1
+		"bunks" 44
+		"mass" 400
+		"drag" 10
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"ramscoop" 2
+		"cargo space" 375
+		"outfit space" 272
+		"weapon capacity" 60
+		"engine capacity" 92
+		"seed capacity" 65
+		"thrust" 10
+		"thrusting energy" 1.8
+		"turn" 125
+		"turning energy" 0.9
+		"jump speed" .3
+		"hyperdrive" 1
+		"energy capacity" 275
+		"solar collection" 3
+		"energy generation" .025
+		"hull repair rate" .4
+		"hull heat" .5
+		"cooling" .9
+		weapon
+			"blast radius" 83
+			"shield damage" 830
+			"hull damage" 415
+			"hit force" 1245
+	outfits
+		"Gun Seed" 3
+		
+		"S.E.S.E.S"
+		"D.I.S" 5
+		
+		"I.F.E.S" 
+		"E.E.E.S"
+		
+	engine -25 117
+	engine 25 117
+	gun -28 -77 "Gun Seed"
+	gun 0 -120 "Gun Seed"
+	gun 28 -77 "Gun Seed"
+	drone 0 0 under
+	fighter -67 25 left
+	fighter 67 25 right
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "big explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "It takes 80 earth years for a Frosta to grow this big, and well take another 30 years to become the E Frosta."
+	description "All Frostas have a seed capacity that gets used up as you install Lem'Iru outfits. Adults have 65 seed spots."
+
+ship "E Frosta"
+	sprite "ship/eseed"
+	attributes
+		category "Heavy Warship"
+		"cost" 11500000
+		"shields" 26000
+		"hull" 7200
+		"required crew" 1
+		"bunks" 88
+		"mass" 600
+		"drag" 10
+		"heat dissipation" .65
+		"fuel capacity" 700
+		"ramscoop" 2.5
+		"cargo space" 450
+		"outfit space" 320
+		"weapon capacity" 100
+		"engine capacity" 116
+		"seed capacity" 80
+		"thrust" 14
+		"thrusting energy" 1.8
+		"turn" 150
+		"turning energy" 0.9
+		"jump speed" .35
+		"hyperdrive" 1
+		"energy capacity" 400
+		"solar collection" 5
+		"energy generation" .02
+		"hull repair rate" .6
+		"hull heat" .6
+		"cooling" 1.8
+		weapon
+			"blast radius" 166
+			"shield damage" 1660
+			"hull damage" 830
+			"hit force" 2490
+	outfits
+		"Gun Seed" 5
+		
+		"S.E.S.E.S"
+		"D.I.S" 5
+		
+		"I.F.E.S" 2
+		
+	engine -25 140
+	engine 25 140
+	gun 0 -145 "Gun Seed"
+	gun 32 -97 "Gun Seed"
+	gun -32 -97 "Gun Seed"
+	gun 73 -23 "Gun Seed"
+	gun -73 -23 "Gun Seed"
+	drone 0 0 under
+	drone 0 0 over
+	fighter -97 34 left
+	fighter 97 34 right
+	fighter -97 34 left
+	fighter 97 34 right
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "big explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "It takes 110 earth years for a Frosta to grow this big. Elder or E Frosta is the largest and most powerful of all the Frostas."
+	description "All Frostas have a seed capacity that gets used up as you install Lem'Iru outfits. Elders have 80 seed spots."

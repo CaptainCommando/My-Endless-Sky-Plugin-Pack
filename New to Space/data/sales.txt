@@ -1,0 +1,57 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfitter "Lem'Iru"
+	"Local Map"
+	"Gun Seed"
+	"S.S.E.S"
+	"V.E.S"
+	"F.S.H.S"
+	"O.C.E.S"
+	"S.E.S.E.S"
+	"D.I.S"
+	"E.E.E.S"
+	"I.E.S"
+	"I.T.E.S"
+	"I.F.E.S"
+
+shipyard "Lem'Iru"
+	"C Frosta"
+	"P Frosta"
+	"T Frosta"
+	"E.A Frosta"
+	"A Frosta"
+	"E Frosta"
+
+#for testing
+outfitter "SathArky"
+	"Sakn"
+	"Fusle"
+	"FasStacs"
+	"SthuStess"
+	"Scanons"
+	"SucKen"
+	"Simmas"
+	"Simmas Forcis"
+	"Asni-Simmas Sorptas"
+	"SucKen Simmas"
+
+#for testing
+shipyard "SathArky"
+	"Safers"
+	"Safsann"

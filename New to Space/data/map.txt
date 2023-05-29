@@ -1,0 +1,664 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+system A'Mod
+	pos 907.462 316.938
+	government Uninhabited
+	habitable 1080
+	link Lore'Da
+	link Lor'As
+	asteroids "small rock" 1 3.9336
+	asteroids "medium rock" 11 1.5576
+	asteroids "large rock" 1 2.8776
+	asteroids "medium metal" 3 3.7224
+	asteroids "large metal" 3 1.6896
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Small Lem'Iru" 400
+	fleet "Medium Lem'Iru" 800
+	fleet "Large Lem'Iru" 1600
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust2
+		distance 219.683
+		period 39.6317
+		offset 218.696
+	object
+		sprite planet/rock7
+		distance 540.373
+		period 152.893
+		offset 278.52
+	object Ion'La
+		sprite planet/callisto
+		distance 933.385
+		period 347.088
+		offset 93.7451
+	object
+		sprite planet/uranus
+		distance 1783.51
+		period 916.773
+		offset 121.041
+		object
+			sprite planet/rock3
+			distance 358.747
+			period 29.0305
+			offset 247.789
+		object
+			sprite planet/dust0
+			distance 469.149
+			period 43.415
+			offset 74.4969
+
+
+
+system Hort'Mi
+	pos 1002.62 205.378
+	government Uninhabited
+	habitable 233.28
+	link Lore'Da
+	link Toe'Po
+	asteroids "small rock" 1 9.0552
+	asteroids "medium rock" 3 4.004
+	asteroids "large rock" 2 9.1168
+	asteroids "small metal" 3 6.0368
+	asteroids "large metal" 2 7.8848
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Small Lem'Iru" 400
+	fleet "Medium Lem'Iru" 800
+	fleet "Large Lem'Iru" 1600
+	object
+		sprite star/m4
+		period 10
+	object Mi'Doft
+		sprite planet/lava1
+		distance 326.511
+		period 154.514
+		offset 92.9229
+	object
+		sprite planet/gas7
+		distance 850.761
+		period 649.879
+		offset 283.144
+		object
+			sprite planet/rock3
+			distance 235
+			period 12.8154
+		object
+			sprite planet/dust7
+			distance 372
+			period 25.5238
+	object
+		sprite planet/ice1
+		distance 1491.4
+		period 1508.39
+		offset 147.53
+	object
+		sprite planet/gas5
+		distance 1988.36
+		period 2322.01
+		offset 70.3179
+		object
+			sprite planet/ice0
+			distance 239
+			period 12.287
+
+system Lor'As
+	pos 879.71 256.337
+	government Uninhabited
+	habitable 4270
+	link Lore'Da
+	link A'Mod
+	asteroids "small rock" 9 3.712
+	asteroids "medium rock" 5 3.712
+	asteroids "large rock" 1 3.0624
+	asteroids "large metal" 1 4.9648
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Small Lem'Iru" 400
+	fleet "Medium Lem'Iru" 800
+	fleet "Large Lem'Iru" 1600
+	object
+		sprite star/a5
+		distance 19.6136
+		period 9.49518
+	object
+		sprite star/g5
+		distance 114.386
+		period 9.49518
+		offset 180
+	object
+		sprite planet/lava6
+		distance 599.825
+		period 89.9256
+		offset 198.976
+	object Fant'Imo
+		sprite planet/desert6
+		distance 1117.13
+		period 228.56
+		offset 88.0234
+	object
+		sprite planet/cloud2
+		distance 1996.47
+		period 546.059
+		offset 143.131
+	object
+		sprite planet/gas14
+		distance 2792.78
+		period 903.445
+		offset 115.595
+	object
+		sprite planet/gas12
+		distance 4017.13
+		period 1558.55
+		offset 53.9212
+
+
+
+system Lore'Da
+	pos 941.02 254.462
+	government Lem'Iru
+	habitable 1050.92
+	link Lor'As
+	link A'Mod
+	link Hort'Mi
+	asteroids "small rock" 11 2.4633
+	asteroids "medium rock" 6 6.762
+	asteroids "large rock" 7 3.1395
+	asteroids "small metal" 2 5.7477
+	asteroids "medium metal" 11 4.5402
+	asteroids "large metal" 4 3.2844
+	trade Clothing 200
+	trade Electronics 1500
+	trade Equipment 900
+	trade Food 100
+	trade "Heavy Metals" 1100
+	trade Industrial 1000
+	trade "Luxury Goods" 1275
+	trade Medical 500
+	trade Metal 500
+	trade Plastic 300
+	fleet "Small Lem'Iru" 400
+	fleet "Medium Lem'Iru" 800
+	fleet "Large Lem'Iru" 1600
+	object
+		sprite star/g5
+		distance 44.9864
+		period 14.4298
+	object
+		sprite star/k5
+		distance 66.0136
+		period 14.4298
+		offset 180
+	object Lem'Ena
+		sprite planet/forest2
+		distance 1165.77
+		period 491.127
+		offset 267.941
+	object
+		sprite planet/gas2
+		distance 2419.26
+		period 1468.25
+		offset 26.8488
+	object
+		sprite planet/gas1
+		distance 3136.48
+		period 2167.4
+		offset 20.5545
+		object
+			sprite planet/rock17
+			distance 286.428
+			period 19.3749
+			offset 197.058
+		object
+			sprite planet/ice8
+			distance 417.616
+			period 34.1099
+			offset 257.412
+
+
+
+system "Pug Iyik"
+	pos -361.149 -883.233
+	government Pug
+	habitable 625
+	asteroids "small rock" 35 7.6356
+	asteroids "medium rock" 5 6.9552
+	asteroids "large rock" 28 6.5016
+	asteroids "small metal" 8 7.7112
+	asteroids "medium metal" 179 8.5428
+	asteroids "large metal" 34 10.962
+	trade Clothing 274
+	trade Electronics 700
+	trade Equipment 430
+	trade Food 451
+	trade "Heavy Metals" 1195
+	trade Industrial 682
+	trade "Luxury Goods" 1020
+	trade Medical 552
+	trade Metal 414
+	trade Plastic 409
+	fleet "Small Pug" 600
+	fleet "Large Pug" 1200
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock6
+		distance 268.89
+		period 70.5476
+		object
+			sprite planet/europa
+			distance 160
+			period 25.4415
+	object "Vara Pug"
+		sprite planet/ocean4
+		distance 643.85
+		period 261.395
+	object
+		sprite planet/lava3
+		distance 1271.1
+		period 725.086
+	object
+		sprite planet/gas15
+		distance 2701.19
+		period 2246.22
+		object
+			sprite planet/dust5
+			distance 234
+			period 18.8417
+		object
+			sprite planet/desert4
+			distance 365
+			period 36.706
+	object "Wormhole New"
+		sprite planet/wormhole
+		distance 3837.1
+		period 3802.98
+		offset 20.844
+
+system SadIss
+	pos 1114.05 25.097
+	government Uninhabited
+	habitable 1505.92
+	link Sam'Lor
+	link Srokar
+	asteroids "small rock" 2 5.18
+	asteroids "medium rock" 10 2.59
+	asteroids "large rock" 2 4.27
+	asteroids "small metal" 1 2.065
+	asteroids "large metal" 2 3.57
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet Quarg 600
+	object
+		sprite star/g0
+		distance 36.768
+		period 15.2783
+	object
+		sprite star/k5
+		distance 93.232
+		period 15.2783
+		offset 180
+	object
+		sprite planet/cloud2
+		distance 379.183
+		period 76.1083
+		offset 296.018
+	object Tan'ora
+		sprite planet/rock1
+		distance 856.259
+		period 258.266
+		offset 224.29
+		object
+			sprite planet/dust1
+			distance 186.792
+			period 29.6858
+			offset 123.629
+	object Or'tan
+		sprite planet/ice8
+		distance 1455.31
+		period 572.261
+		offset 189.867
+	object
+		sprite planet/gas12
+		distance 2917.72
+		period 1624.52
+		offset 272.53
+
+
+
+system Sam'Lor
+	pos 1074.46 76.631
+	government Uninhabited
+	habitable 2372.76
+	link Toe'Po
+	link SadIss
+	asteroids "small rock" 11 2.436
+	asteroids "medium rock" 118 5.292
+	asteroids "large rock" 56 2.142
+	asteroids "small metal" 18 2.898
+	asteroids "medium metal" 21 4.116
+	asteroids "large metal" 65 5.04
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/fog0
+		distance 243.61
+		period 31.2231
+		offset 196.059
+	object
+		sprite planet/cloud6
+		distance 696.86
+		period 151.061
+		offset 287.564
+	object Sordem
+		sprite planet/rock7
+		distance 1157.27
+		period 323.285
+		offset 58.1839
+	object
+		sprite planet/gas5
+		distance 2382.27
+		period 954.816
+		offset 72.6429
+
+
+
+system Srokar
+	pos 1118.53 -50.1776
+	government SathArky
+	habitable 486.68
+	link SadIss
+	asteroids "large rock" 2 7.714
+	asteroids "small metal" 1 3.8836
+	asteroids "medium metal" 7 4.256
+	asteroids "large metal" 1 7.1288
+	trade Clothing 100
+	trade Industrial 700
+	trade "Luxury Goods" 700
+	trade Medical 700
+	trade Metal 700
+	trade Plastic 700
+	fleet "Large SathArky" 1500
+	object
+		sprite star/k0
+		period 10
+	object SokArs
+		sprite planet/forest4
+		distance 334.452
+		period 110.902
+		offset 205.469
+	object Domas
+		sprite planet/earth
+		distance 667.551
+		period 312.726
+		offset 73.9131
+	object Foras
+		sprite planet/desert2
+		distance 953.125
+		period 533.535
+		offset 105.092
+
+system "Temp Hole"
+	pos 880.532 358.598
+	government Quarg
+	habitable 320
+	asteroids "small rock" 7 9.6048
+	asteroids "medium rock" 19 9.0045
+	asteroids "large rock" 9 4.002
+	asteroids "small metal" 1 4.2021
+	asteroids "medium metal" 32 8.4042
+	asteroids "large metal" 1 6.67
+	trade Clothing 290
+	trade Electronics 790
+	trade Equipment 630
+	trade Food 350
+	trade "Heavy Metals" 860
+	trade Industrial 820
+	trade "Luxury Goods" 1620
+	trade Medical 550
+	trade Metal 290
+	trade Plastic 390
+	fleet Quarg 600
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas5
+		distance 702.136
+		period 416.023
+		offset 123.118
+		object
+			sprite planet/ice7
+			distance 340.072
+			period 20.8547
+			offset 89.6581
+		object Fadhord
+			sprite planet/dust0
+			distance 484.275
+			period 35.4393
+			offset 197.41
+	object "Wormhole New"
+		sprite planet/wormhole
+		period 2178.3
+		offset 97.6825
+
+
+
+system Toe'Po
+	pos 1057.6 145.645
+	government Uninhabited
+	habitable 1715
+	link Hort'Mi
+	link Sam'Lor
+	asteroids "small rock" 10 4.7424
+	asteroids "medium rock" 73 5.3352
+	asteroids "large rock" 50 5.6088
+	asteroids "small metal" 1 3.2376
+	asteroids "medium metal" 5 6.84
+	asteroids "large metal" 12 2.736
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Small Lem'Iru" 400
+	fleet "Medium Lem'Iru" 800
+	fleet "Large Lem'Iru" 1600
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/fog0
+		distance 372.41
+		period 69.4161
+		object
+			sprite planet/dust3
+			distance 188
+			period 19.0158
+	object
+		sprite planet/cloud3
+		distance 796.65
+		period 217.185
+	object SapoT
+		sprite planet/dust1
+		distance 1192.8
+		period 397.903
+		offset 30.5084
+	object
+		sprite planet/gas10
+		distance 1577.43
+		period 605.138
+		offset 176.074
+	object
+		sprite planet/gas6
+		distance 4510.19
+		period 2925.64
+		offset 12.3914
+		object
+			sprite planet/ice8
+			distance 306
+			period 13.6725
+		object
+			sprite planet/callisto
+			distance 455
+			period 24.7903
+
+
+
+planet Domas
+	landscape land/mountain1
+	description `Unlike SokArs the SathArky home world, Domas is filled with life. It seems the SathArky are exploring this planet and have made a small colony out of what looks like some space ships.`
+	"required reputation" 0
+	bribe 0
+	security 0
+
+planet Fadhord
+	attributes quarg moon
+	landscape land/badlands6
+	description `Fadhord is part of Quarg territory, and has been terraformed to meet their environmental needs.`
+	spaceport `Here, you feel like a young child lost among a crowd of tall, indifferent adults. The average adult Quarg is over three meters tall, and although they move slowly and gracefully, on their long legs they easily speed by you.`
+	bribe 0
+	security 0.9
+
+planet Fant'Imo
+	landscape land/badlands3
+	description `This planet may look dead, but that's just looks.`
+	description `	Out side your ship is a hostile atmosphere and your ship detects what can only be some kind of life form. `
+	description `	What it is you'll never know, but something is growing here.`
+
+planet Foras
+	landscape land/snow1
+	description `Foras is a very cool planet has some life more towards the equator.`
+	description `	You spot a SathArky ship landed where it is warmer, it seems they are going to try to colonize this planet.`
+	"required reputation" 0
+	bribe 0
+	security 0
+
+
+planet Ion'La
+	landscape land/hills0
+	description `A wonderful planet, full of life.`
+	description `	Flying around you can see many cities and towns, looks like a pre-industrail race of Rhino like humannoids. `
+	description `	It looks like it may be another 100-300 Earth years before they are able to send anything to space.`
+
+
+planet Lem'Ena
+	attributes tourism
+	landscape land/forest0
+	description `Lem'Ena is filled with life, so much so that you wonder where the the landing pads are every time you come to this planet.`
+	description `	It is simply wonderful to see the Lem'Iru's genetically engineered plant buildings even if they make it hard to find a landing pad.`
+	spaceport `The Lem'Iru's Space Port is as wonderful as ever as you leave the landing pad, you can see the Research and Development building to the left about 10 meters away. Still the biggest plant building you have ever seen. `
+	spaceport `	All around the landing pads are market stalls, and it seems almost packed with Lem'Iru people. To the front of you about 90 meters away is the Bar and Bank side by side.`
+	spaceport `	Today maybe you'll use the contact broads around the space port to see what Con is up to.`
+	shipyard Lem'Iru
+	outfitter Lem'Iru
+	"required reputation" 0
+	bribe 0.03
+	security 0
+
+planet Mi'Doft
+	landscape land/lava0
+	description `This primordial world has many highly active volcanoes, yet life has found a way. `
+	description `	It has many plants and large great lizard like creatures.`
+
+planet Or'tan
+	landscape land/mountain13-sfiera
+	description `A small Earth like.`
+	description `	All over the place mammals are working hard to avoid being eaten by great lizards, but which pool mammals or lizards well survive for long enough that they will be able to evolve into the dominant life form, you are unable to tell. `
+	description `	Maybe you should direct a big rock to this planet to see if they have what is takes to survive.`
+
+planet SapoT
+	landscape land/snow6
+	description `This world is prefect for Quarg mining, but you see why the Quarg are leaving it alone.`
+	description `	Very large bird like creatures are flying around a few come closer to you ship.`
+	description `	They're bigger then the Quarg and they fly! Must be form the low gravity.`
+
+
+
+planet SokArs
+	landscape land/bwerner8
+	description `SokArs is an almost barren planet the locals a Dragonnoid species also known as SathArky are carnivorous you can only assume that they ate most of everything and have nearly doomed them selves to extinction, because of this they are highly factionalized.`
+	description `	You know you well not be staying here for long.`
+	spaceport `The SathArky don't have a space port, but they do have launching pads for their space ships.`
+	spaceport `	You Land in a rocky area which should hide your ship area, and you hope no SathArky well come by here anytime soon.`
+	spaceport `	To refuel you're just going to have to take it, doing your best not to be spotted by the SathArky who would most likely kill you on sight, and then search for your ship.`
+	"required reputation" 0
+	bribe 0.1
+	security 0
+
+
+
+planet Sordem
+	landscape land/desert7
+	description `This barren world is dead. `
+	description `	Your ship detects some kind of technology. `
+	description `	You pilot your ship to the location it is detected, only to find the ruins of an industrial race long dead.`
+	description `	You're amazed at how long this tech has been sending a signal, seems this race knew their star was changing and put all their effort into making this monolith.`

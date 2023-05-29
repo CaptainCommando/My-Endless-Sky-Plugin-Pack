@@ -1,0 +1,147 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Asni-Simmas Sorptas"
+	category "Turrets"
+	cost 100000
+	thumbnail "outfit/unknown"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"turret mounts" -1
+	"self destruct" 0.01
+	weapon
+		"hit effect" "small anti-missile"
+		"anti-missile" 5
+		"velocity" 100
+		"lifetime" 1
+		"reload" 7
+		"firing energy" 5
+		"firing heat" 4
+	description "SathArky space battles are still fought mostly with missiles or what they call Simmas. So to change this a small group of SathArky developed an Asni-Simmas Sorptas or what we call an Anti-Missile turret."
+
+outfit "Scanons"
+	category "Guns"
+	cost 200000
+	thumbnail "outfit/unknown"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	"self destruct" 0.01
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .6
+		"velocity" 30
+		"lifetime" 20
+		"reload" 20
+		"firing energy" 25
+		"firing force" 10
+		"firing heat" 100
+		"hit force" 80
+		"shield damage" 22
+		"hull damage" 44
+	description "The Scanons seems a lot like the Particle Cannon, but less damage. This is the only SathArky weapon that uses energy to fire with, all the others use fuel."
+
+outfit "Simmas"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/javelin"
+	"Simmas capacity" -1
+	description "Simmas are ammunition for the Simmas Forcis. Each Simmas Forcis can hold 100 of them. You cannot install Simmas unless you have also installed a Forcis to fire them from."
+
+outfit "Simmas Forcis"
+	category "Secondary Weapons"
+	cost 75000
+	thumbnail "outfit/javelin pod"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"Simmas capacity" 100
+	"self destruct" 0.1
+	weapon
+		sprite "projectile/javelin"
+			"frame rate" 2
+			"random start frame"
+		sound "javelin"
+		ammo "Simmas"
+		icon "icon/javelin"
+		"fire effect" "torpedo fire"
+		"hit effect" "big explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 4
+		"velocity" 9
+		"lifetime" 200
+		"reload" 30
+		"firing fuel" 1
+		"firing heat" 30
+		"acceleration" .7
+		"drag" .1
+		"turn" 4
+		"homing" 2
+		"optical tracking" .8
+		"shield damage" 250
+		"hull damage" 250
+		"hit force" 10
+		"missile strength" 20
+	description "Simmas are the most powerful mass produced homing weapons the SathArky have. The lancher and ammo look a lot like the Javelins and Pod."
+
+outfit "SucKen Simmas"
+	category "Secondary Weapons"
+	cost 1500000
+	thumbnail "outfit/nuke"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"self destruct" 0.1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "SucKen Simmas"
+		stream
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"velocity" 6
+		"lifetime" 800
+		"reload" 400
+		"firing fuel" 40
+		"firing heat" 400
+		"acceleration" .8
+		"drag" .1
+		"turn" 3
+		"homing" 2
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 30
+		"blast radius" 200
+		"shield damage" 18000
+		"hull damage" 14000
+		"hit force" 4000
+		"missile strength" 400
+	description "It's a SathArky Nuclear missile! More powerful then a Nuclear missile! But at lest the homing is not as good."
+	description "	[SucKen simmas are a one-shot weapon: each simmas occupies a gun slot, and after it is fired, the slot it was in is left empty.]"

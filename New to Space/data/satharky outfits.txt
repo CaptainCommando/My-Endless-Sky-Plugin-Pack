@@ -1,0 +1,77 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+outfit "Sakn"
+	category "Systems"
+	cost 32000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -2
+	"outfit scan" 300
+	"scan interference" 2
+	"radar jamming" 2
+	"cargo scan" 150
+	"atmosphere scan" 50
+	"self destruct" 0.1
+	description "This is SathArky scaning technology and scan and missile interference technology at it's best."
+
+outfit "Fusle"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"fuel capacity" 200
+	"self destruct" 0.25
+	description "A type of fuel pod the SathArky use to store more fuel so they may get to the other planets in their solar system."
+
+outfit "FasStacs"
+	category "Hand to Hand"
+	cost 9000
+	thumbnail "outfit/unknown"
+	"mass" 0.01
+	"outfit space" -0.01
+	"capture attack" 1.1
+	"capture defense" 1
+	"unplunderable" 1
+	description "A type of rifle that the SathArky use when broading other ships."
+
+outfit "SthuStess"
+	category "Engines"
+	"cost" 100000
+	thumbnail "outfit/unknown"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"energy capacity" 300
+	"energy generation" 15
+	"shield generation" .1
+	"shield energy" .2
+	"heat generation" 5
+	"thrust" 5
+	"thrusting energy" 1
+	"thrusting heat" 3
+	"turn" 115
+	"turning energy" 0.65
+	"turning heat" 2
+	"self destruct" 0.75
+	"flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"flare sound" "plasma tiny"
+	description "Given its size, this tiny SathArky made "all in one" engine produces quite a kick at the cost of fuel. It is the only engine the SathArky have."

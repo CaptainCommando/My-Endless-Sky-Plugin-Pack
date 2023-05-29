@@ -1,0 +1,37 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+# would be nice to add in <Hull: -1000>, <Shields: -1000>, and a scene with the planet's landing image with human sized dragons holdng weapons in it.
+mission "First Contact: SathArky"
+	landing
+	source "SokArs"
+	on offer
+		"reputation: SathArky" = -1000
+		conversation
+			`	Your ship <ship> is immediately surrounded even before it gets close to the ground. All you can think of is that this species looks a lot like the mythical beast that are writen in many fiction books, and are also played in movies. Dragons! but smaller, they are flying around holding what looks like weapons, as your ship <ship> thouches the ground you try to hail them on all known frequencies saying "I mean you no harm." All you get back is some strange sounds "Saakyrss Someees" and all of a sudden you ship is attacked by the all the Dragonnoids out side your ship. You take off and head for space.`
+				launch
+
+	on enter Srokar
+		dialog
+			`	It would appear that the SathArky have lunched some ships just before you before you attempted to land and are waiting for you in space.`
+
+	npc
+		personality waiting staying nemesis
+		system "Srokar"
+		government "SathArky"
+		fleet "Large SathArky"

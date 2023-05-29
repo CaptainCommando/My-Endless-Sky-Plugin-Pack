@@ -1,0 +1,65 @@
+ship "Quadrant"
+	sprite "ship/quadrant"
+	attributes
+		category "Heavy Warship"
+		"cost" 79350000
+		"shields" 19800
+		"hull" 192560
+		"required crew" 55
+		"bunks" 120
+		"mass" 4775
+		"drag" 30
+		"heat dissipation" .36
+		"fuel capacity" 120
+		"cargo space" 1250
+		"outfit space" 1600
+		"weapon capacity" 475
+		"engine capacity" 200
+		weapon
+			"blast radius" 450
+			"shield damage" 7800
+			"hull damage" 4500
+			"hit force" 6000
+	outfits
+		"Electron Beam" 12
+		"Electron Turret" 4
+		
+		"nGVF-EE Fuel Cell"
+		"LP576a Battery Pack" 2
+		"D94-YV Shield Generator" 3
+		"S-970 Regenerator" 2
+		"Catalytic Ramscoop"
+		
+		"X5700 Ion Thruster"
+		"X5200 Ion Steering" 
+		"Hyperdrive"
+		
+	gun 0 -207
+	gun 0 -207
+	gun 0 -183
+	gun 0 -183
+	gun -12 -183
+	gun 12 -183
+	gun 6 -183
+	gun -6 -183
+	gun 0 0
+	turret 0 0
+	gun 0 0
+	turret 0 0
+	gun -154 0
+	gun 154 0
+	turret -154 0
+	turret 154 0
+	fighter 0 100
+	fighter 0 100
+	fighter -154 100 
+	fighter 154 100
+	fighter 0 100
+	fighter 0 100
+	fighter -154 100 
+	fighter 154 100
+	explode "small explosion" 40
+	explode "medium explosion" 60
+	explode "big explosion" 55
+	explode "huge explosion" 45
+	description "Everspace Quadrant is the near-exact replica of the immobile geostationary defense platform found in Evercorps' virtual reality, only with an engine and hyperdrive. You might need to buy additional reactors for the engine."

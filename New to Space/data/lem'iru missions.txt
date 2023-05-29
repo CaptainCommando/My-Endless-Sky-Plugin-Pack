@@ -1,0 +1,130 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+mission "First Contact: Lem'Iru"
+	landing
+	source "Lem'Ena"
+	on offer
+		"reputation: Lem'Iru" = 1000
+		conversation
+			`	As you leave your ship and enter the port you see many tall, hairless beings with muscular bodies. You stand there watching them for a time, they don't seem to pay any attention to you, and you also just noticed that it is quiet for a place so busy. You start to walk around looking for someone that may speak with you, as you walk up to one you can tell just how tall they are, they all seem to be about 1.9 to 2.3 metters tall, and they have small almost beady eyes that are mostly black with hints of color. You try to talk to one and get nuthing but a blank stare and some gestures that you don't understand, so you move on and try to find someone else. You countinue walking around, it's a good thing you brought food with you because they don't seem to have any food around here, there are lots of plants and some wildlife roaming around here and there but you don't know if anything here is edible.`
+			`	You enter a place to try your luck talking to one of the..... !? THEY ARE EATING ROCKS!? You stand there for what feels like an eternity watching them eat... rocks! One of them motions you over and hands you a char that seems alive! and this friendly being hands you a rock, which you stare at for a few seconds. When you stop staring at the rocks and them eating the rocks, you see them gesturing back and forth to each other, motions you can't make heads or tails except for a few motions that you know all to well. They are the same motions people seem to make when talking with friends. You finaly notice they all look the same just diferent hints of colors in their eyes. The friendly one lifts the rock it gave you and motions a here take and eat it kind of motion, you put you hands up and speak, they all stop eating to stare at you. The friendly stops everything, stands up, and motions you to follow.`
+			choice
+				`	You think on this for a few seconds and decide follow him, her, it!... lets just call it "Friend" for now.`
+					goto follow
+			label follow
+			`	You follow "Friend" for what seems like an hour when you notice you are near the landing pads, which are close to the market. "Friend" starts walking over to a very diferent building... it looks.. well it looks alive! almost like a tree but no leaves and branches and much.. much bigger then any tree you have ever seen. As you enter it? shows you to another of it's kind. They look at each other back at you and then each other again, with but a few motions here and there like they are talking.`
+			`	The other one wants you to follow it now, you follow it up some stairs to the next level. It enters a room, and motions you to wait outside or to stay where you are... a few minutes go by and it opens the door, walks up to you and tries to put something on your skin but you stop it before it does. It shows you what looks to be a worm of some type and gestures to you that it is okay, and that you should allow this.`
+			choice
+				`	You think on this for a few minutes, after more gestures finally allow the worm to be on your skin.`
+					goto worm
+			label worm
+			`	Within the second the worm touches you it's in your skin! You didn't feel a thing! You look shocked and angry at the the one that did this to you, but before you could do anything, you hear something.. or you think you hear something, it's hard to explain. You look around, and the alien in front of you looks happy! You hear it again but louder now.`
+			`	The vocie says .. "I'm Doatic Qu'Fe Fosta Nomd'Esad, we well all now be able to commune with you and you with us. We are the Lem'Iru of <destination> this is our home, we are a peaceful species that does not eat anything organic or what you call living things. We well alow you to obtain our ships, for what your race calls... credits, we like to eat these credits, and thus allow their use as a form of trade, but if you are looking to get credits back from us you well have to go to the currency exchange."`
+			`	You think of something to say, and Doatic stops you he says "We can hear your thoughts now, all you have to do is think it, and we well know it."`
+			choice
+				`	"How does that work?"`
+					goto how
+			label how
+			`	You feel Doatic say "The Loomoram.. that worm a gave you, translates our thought waves into your thought waves and your thought waves when you think on something is translated to our thought waves. The Loomoram is genetically engineered by us so that we may conmune with any other race out there."`
+			choice
+				`	"How did you know that your race is not alone out here?"`
+					goto race
+			label race
+			`	You feel Doatic say "You are not the first we have met, but you are the first to have a Loomoram. The others came form no where and attacked us, killing many of our people, and for the first time in our history we had to make weapons. It took us much time to get a weapon that would hold them off, and when we finaly stoped one pthe their ships, they finaly communicated to us and have left us in peace."`
+			choice
+				`	"Why did they leave you in peace?"`
+					goto peace
+				`	"I'M THE FIRST.. to have this worm in me! How did you know it would work?"`
+					goto work
+			label peace
+			`	You feel Doatic say "We do not really understand that too, they only said that we past their test and welcomed us to space travel, I was only a young one then much younger then you, what you call a child. 
+			choice
+				`	When was this?`
+					goto when
+			label when
+			`	Doatic replies "205 of your "Earth" years ago."`
+			choice
+				`	When was this?`
+					goto old
+			label old
+				`	Doatic replies " I am 220 earth years and I may yet live for another 30 of your eath years. That is enough of questions for now, please let us go back down to the lower level."`
+			`	As the two of you walk back down to the main level, you see "Friend" is still here waiting for you, and you feel Doatic say "I leave you here now, be safe young traveler." You think "Thank you Doatic." Doatic smiles, bows slightly then walks away. As you trun to "Friend" only to think that you forgot to tell your name to Doatic! You notice "Friend" is walking towards you, and Doatic is no where to be seen.`
+			` `
+			`	Click Space Port to continue mission line.`
+				accept
+			label work
+			`	You feel Doatic say "The Loomoram we use them on all animals to commune with them too, we have been using the Loomoram to do this for a 100 of your years."`
+			choice
+				`	ANIMALS! does that mean I can talk to animals on this planet?`
+					goto animals
+			label animals
+			`	Doatic smiles and replies "Yes you may think to them but only to animals with the Loomoram in them. They mostly think of sex and food so it may not be as fun as you think it may be. That is enough of this for now, please let us go back down to the lower level."`
+			`	As the two of you walk back down to the main level, you see "Friend" is still here waiting for you, and you feel Doatic say "I leave you here now, be safe young traveler." You think "Thank you Doatic." Doatic smiles, bows slightly then walks away. As you trun to "Friend" only to think that you forgot to tell your name to Doatic! You notice "Friend" is walking towards you, and Doatic is no where to be seen.`
+			` `
+			`	Click Space Port to continue mission line.`
+				accept
+
+mission "First Contact: Lem'Iru2"
+	source "Lem'Ena"
+	to offer
+		"First Contact: Lem"Iru"
+	on offer
+		conversation
+			`	As you and "Friend" walk towards each other you feel a loud sound "HELLO ARE YOU GOOD NOW?" as you see "Friend" waving it's arms in the air. As you smile you think "Yes I am and my name is <first> <last>, but you can call me <first>." You feel "Friend's" thoughts "Hello <first> I am Con'Iga Fona Fo'In Sodimo call me Con as all my friends do. I'll show you around, follow me."`
+			`	You follow Con out of the building, You feel Con say "As you can guess this is our only space port and the landing pads are right over there (waves it's hand to the right), the building we just came out of is our research and development which serves as the Outfitter and Shipyard, around the port as you can see is our market or Trade post, and over there (waves it's hand to the left) about 100 meters away you can see the bar where you can hire crew, and just to the right of the bar is the Bank which takes any currency and exchanges it to Samo." Con pulls out a small hand full of flat round bean like things some or dirrent sizes which you can only guess is there version of credits. You feel Con say "I have to go back home now the young are not allowed out this long." You think "Just how old are you Con?" You feel Con say "I am 18... 45 of your years old, if you need help again just use the contact broads around the space port to find me." Con smiles, bows slightly then walks away. `
+			`	You walk to the Bank to find more information on how trade and the currency exchange works. When you get there the poort seems less lively most likely because the "Young" are going or are at home now.`
+			`	You enter the Bank and walk up to someone that is behind what you can only guess is their version of a computer. As you get close the weird symbols on the sign seem to morph into something you can read. Looks like is say Reception, the receptionist look at you and you feel it's thoughts "Hello I am Cidare Lof Boac'Ig Fonta what can I help you with?" You think "I need to know about how the currency exchange works here and about the Trade system the you use here." You feel Cidare's thoughts "First you are new to <destination> and as you may or may not know we are a peaceful race that has no.. what you call sex.. Gender!, and we eat only non-organic materials, so this changes alot of what you would understand as cost on normal things to you, which may not be so normal to us." Cidare passes you a plant thing that looks like a pad.`
+			choice
+				`	Take the pad.`
+					goto pad
+			label pad
+			`	Looking at it the pad, you see all the weird symbols morph into something you can read. It's almost like the pad knows your thoughts! It immediately displays information on the Loomoram, and moves the text to a point where you can read that the Loomoram helps with thought to technology interfacing. Cidare interrupts your thoughts "Please Read the infromation on the  the Exchange and I well tell you about our Trade system."`
+			`	On the display you read:`
+			`Current Currency Exchange:`
+			`1 Samo'I = 1000 Credits`
+			`1 Samo'A = 500 Credits`
+			`1 Samo'E = 100 Credits`
+			`1 Samo'O = 1 Credit`
+			`	Cidare's thoughts "This is how our trade works here on Lem'Ena`
+			`Equipment, Industrial, and Electronics have a Very High cost here, mostly due to the fact that to most of us this is a food delicacy.`
+			`Metal, Heavy Metals have a High cost here, because this is food to the us, and we are always looking for more food.`
+			`Luxury Goods have a Meduim-High cost, seeing as even we have things that we like and wont eat.`
+			`Clothing, Plastic, and Medical are all "organic" to the us thus they have a Low-Meduim cost.`
+			`What you call Food has a vary Low cost seeing to us we do not eat what you call food and there is a lot of what you call food here."`
+			` `
+			`	Please keep the Sodar (pad) as it is a free service that we well give every traveler that comes to our world. The Space Port is open to all travelers and all of our adults all day and night." You think "Thank you, and what age is an adult?" You feel Cidare's thoughts "Adults are 22 years old or 55 of your years. You're Welcome (bows slightly) please come back, or use the contact broads around the space port if you ever need help."`
+			`You bow slightly and leave.`
+				accept
+
+mission "SathArky, Lem'Iru, and the Pug"
+	landing
+	source "Lem'Ena"
+	to offer
+		has "First Contact: Lem"Iru: done"
+		has "First Contact: SathArky: done"
+		has "free worlds plot completed"
+	on offer
+		conversation
+			`	Once your off your ship you quickly walk over to a contact broad and think to it "Doatic Qu'Fe Fosta Nomd'Esad" it then displays Doatic's current location. You head to the research and development where you find Doatic communing with someone you don't know. You're about to interrupt them as Doatic turns toward you, smiles, and you feel "Hello <first> <last> what are you in a rush for?" Your thoughts poor out.`
+			choice
+				`	How... never mind that. I think I know the ones that attacked your race when you were a child.`
+					goto qu
+			label qu
+			`	Doatic's thoughts poor into your mind "Who?" You begin by thinking to Doatic about the SathArky that are only 5 hyperspace jumps away and how down right evil they can be, but for the time being they are unable to go into hyperspace. You then trun you thoughts to the Pug and what they have done and everything you know about them. You think "I think the Pug knew that you didn't have any real weapons, and pushed your race to develop a weapon that would help you defend your selves form the SathArky if or when they get hyperspace technology. Doatic thoughts are all in the air "Thank you <first> I well pass this information on, soon all the Lem'Iru people well know not to travel to the Srokar system."`
+				accept

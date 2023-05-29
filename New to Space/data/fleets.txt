@@ -1,0 +1,73 @@
+# Copyright (c) 2014 by Michael Zahniser
+
+#
+
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+
+# terms of the GNU General Public License as published by the Free Software
+
+# Foundation, either version 3 of the License, or (at your option) any later version.
+
+#
+
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+fleet "Small Lem'Iru"
+	government "Lem'Iru"
+	names "Lem'Iru Scout"
+	personality
+		heroic frugal
+	variant 1
+		"T Frosta" 2
+	variant 2
+		"A.E Frosta" 
+		"B Frosta"
+
+fleet "Medium Lem'Iru"
+	government "Lem'Iru"
+	names "Lem'Iru Exproler"
+	personality
+		heroic frugal
+	variant 1
+		"T Frosta" 3
+	variant 2
+		"A.E Frosta" 2
+		"B Frosta" 2
+	variant 3
+		"A Frosta"
+		"B Frosta" 1
+		"P Frosta" 2
+
+fleet "Large Lem'Iru"
+	government "Lem'Iru"
+	names "Lem'Iru Defender"
+	personality
+		heroic frugal
+	variant 1
+		"B Frosta" 3
+		"A Frosta"
+		"P Frosta" 6
+		"E Frosta"
+
+fleet "Small SathArky"
+	government "SathArky"
+	names "SathArky Defender"
+	personality
+		heroic frugal
+	variant 1
+		"Safsann" 
+		"Safers" 2
+
+fleet "Large SathArky"
+	government "SathArky"
+	names "SathArky Attacker"
+	personality
+		heroic frugal
+	variant 1
+		"Safsann" 3
+		"Safers" 6
+		

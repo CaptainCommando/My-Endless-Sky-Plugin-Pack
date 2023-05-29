@@ -1,0 +1,211 @@
+# Copyright (c) 2016 by Gavin Kloewer
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Dace"
+	sprite "ship/dace"
+	attributes
+		category "Fighter"
+		"cost" 226000
+		"hull" 400
+		"shields" 500
+		"required crew" 1
+		"bunks" 1
+		"mass" 15
+		"drag" .5
+		"heat dissipation" .9
+		"cargo space" 0
+		"outfit space" 110
+		"weapon capacity" 15
+		"engine capacity" 50
+		weapon
+			"blast radius" 10
+			"shield damage" 5a
+			"hull damage" 3
+			"hit force" 10
+	outfits
+		"Blaster Turret" 2
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"D14-RN Shield Generator"
+		"nGVF-BB Fuel Cell"
+		
+	engine 9 18
+	engine -9 18
+	turret 0 8 "Blaster Turret"
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "This space superiority fighter is designed to be very lightweight and its turret mount allows it to fire on targets regardless of its orientation. This combined with phenomenal maneuverability makes a impressive fighter. Like all Arcadian designs, it uses lightweight composite armor and very powerful shields, but is much more expensive than most other ships of its class. "
+
+
+ship "Ranger"
+	sprite "ship/ranger"
+	attributes
+		category "Interceptor"
+		"cost" 760000
+		"shields" 3000
+		"hull" 650
+		"required crew" 2
+		"bunks" 4
+		"mass" 40
+		"drag" 2.0
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 15
+		"outfit space" 220
+		"weapon capacity" 50
+		"engine capacity" 80
+		weapon
+			"blast radius" 10
+			"shield damage" 7
+			"hull damage" 4
+			"hit force" 10
+	outfits
+		"Electron Beam" 2
+		
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+		
+	engine 6 33
+	engine -6 33
+	gun -9 -24 "Electron Beam"
+	gun 9 -24 "Electron Beam"
+	explode "tiny explosion" 16
+	explode "small explosion" 8
+	explode "medium explosion" 3
+	description "This Arcadian interceptor is both durable and versatile. It has only two weapon mounts, but they are capable of housing rather large weapon systems. Its lightweight composite armor and powerful shield projectors make it much more survivable than comparable interceptors, albeit with a much higher price tag."
+
+ship "Raptor"
+	sprite "ship/raptor"
+	attributes
+		category "Medium Warship"
+		"cost" 3200000
+		"shields" 6000
+		"hull" 2500
+		"required crew" 6
+		"bunks" 10
+		"mass" 100
+		"drag" 1
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 35
+		"outfit space" 400
+		"weapon capacity" 160
+		"engine capacity" 120
+		weapon
+			"blast radius" 30
+			"shield damage" 15
+			"hull damage" 8
+			"hit force" 10
+	outfits
+		"Plasma Cannon" 4
+		"Heavy Anti-Missile Turret" 2
+
+		"RT-I Radiothermal"
+		"nGVF-AA Fuel Cell"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+		
+	engine 36 80
+	engine -36 80
+	gun 38 -15 "Plasma Cannon"
+	gun -38 -15 "Plasma Cannon"
+	gun 32 -15 "Plasma Cannon"
+	gun -32 -15 "Plasma Cannon"
+	turret 36 47 "Heavy Anti-Missile Turret"
+	turret -36 47 "Heavy Anti-Missile Turret"
+	explode "tiny explosion" 25
+	explode "small explosion" 10
+	description "This frigate is a maneuverable gunship with a large armament. It outclasses many comparable ships due to being built from Arcadian technology, incorporating composite armor and powerful shield projectors to give it excellent durability without much loss of maneuverability. Its large weapon capacity makes it a threat to more durable ships. It does not, however, have much in the way of cargo or bunk space."
+
+ship "Glaive"
+	sprite "ship/glaive"
+	attributes
+		category "Heavy Warship"
+		"cost" 12000000
+		"shields" 2400
+		"hull" 1200
+		"required crew" 2
+		"bunks" 18
+		"mass" 120
+		"drag" 1.7
+		"heat dissipation" .7
+		"fuel capacity" 900
+		"cargo space" 100
+		"outfit space" 800
+		"weapon capacity" 280
+		"engine capacity" 240
+		weapon
+			"blast radius" 40
+			"shield damage" 24
+			"hull damage" 12
+			"hit force" 10
+	outfits
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 140
+		"Plasma Turret" 5
+		
+		"Breeder Reactor"
+		"S3 Thermionic"
+		"LP144a Battery Pack"
+		"S-970 Regenerator"
+		"S-970 Regenerator"
+		"Liquid Helium Cooler"
+		
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Scram Drive"
+		
+	engine 27 180
+	engine -27 180
+	engine 79 178
+	engine -79 178
+	gun -36 -18 "Meteor Missile Launcher"
+	gun 36 -18 "Meteor Missile Launcher"
+	gun 43 -18 "Meteor Missile Launcher"
+	gun -43 -18 "Meteor Missile Launcher"
+	turret -80 48 "Heavy Anti-Missile Turret"
+	turret 80 48 "Heavy Anti-Missile Turret"
+	turret -80 73 "Quad Blaster Turret"
+	turret 80 73 "Quad Blaster Turret"
+	turret -80 130 "Quad Blaster Turret"
+	turret 80 130 "Quad Blaster Turret"
+	turret -80 153 "Heavy Anti-Missile Turret"
+	turret 80 153 "Heavy Anti-Missile Turret"
+	fighter -78 2
+	fighter 78 2
+	fighter -78 2
+	fighter 78 2
+	fighter -78 2
+	fighter 78 2
+	fighter -78 2
+	fighter 78 2
+	fighter -78 2
+	fighter 78 2
+	fighter -78 2
+	fighter 78 2
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "big explosion" 50
+	explode "huge explosion" 20
+	description "The Glaive Assault Carrier is often seen as a flagship in very large Arcadian fleets. Its ability to deploy several signs of fighters, as well as having the armaments of an entire small fleet makes it a very formidable foe. IT has a surprisingly small crew for a ship of its size due to advanced automated systems. Like all Arcadian ships, its lightweight composite armor and powerful shield projectors make it one of the most durable ships in production."
+
